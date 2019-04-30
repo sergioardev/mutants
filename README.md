@@ -1,7 +1,13 @@
 # mutants
 MeLi Challenge
 
-# Detector de Mutantes (Hasta nivel 2)
+
+# Detector de Mutantes (Nivel 1)
+El algoritmo está en (se utiliza la misma lógica para todos los casos, lo único que precisa es un iterador, hay implmentaciones para los 4 sentidos posibles en una matriz de NxN): https://github.com/sergioardev/mutants/blob/master/src/main/java/com/mutants/app/service/MutantDetectorService.java
+
+
+# Detector de Mutantes (Nivel 2)
+(UPDATE: Para nivel 3 ver: https://github.com/sergioardev/mutants-l3.git (se ejecuta pero está incompleto, ver README), se separó el proyecto para no mezclar ni confundir con otra rama)
 
 API Rest que detecta si un humano es mutante en base a la secuencia de su ADN. 
 
